@@ -37,6 +37,18 @@ A remotely operated mobile robotics platform engineered for live atmospheric dat
 
 ---
 
+## 💻 Firmware Architecture & Contributions
+
+The project firmware is written in C++ (Arduino) and utilizes a modular, multi-file structure (`.h` and `.cpp` files) to handle sensor polling, remote teleoperation data, and motor control. 
+
+This firmware was developed collaboratively as part of a university team project. While the overall code repository was structured and refactored into a unified style by my teammate, my primary responsibilities and core codebase contributions included:
+
+* **Sensor Data Acquisition:** Wrote the drivers and polling logic for the environmental sensors (temperature, humidity, and pressure) utilizing the `[e.g., I2C]` bus.
+* **Telemetry Data Packaging:** Developed the logic to format the raw sensor data into strings/packets to be sent wirelessly to the operator interface.
+* **Motor Control Integration:** (If applicable) Implemented the PWM motor speed logic and direction control algorithms to translate operator inputs into physical movement.
+
+---
+
 ## 📂 Repository Structure
 
 * `/firmware` - Source code for the microcontroller.
