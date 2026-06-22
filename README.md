@@ -14,8 +14,7 @@ This robot was made in collaboration with @Pita5488, who programed and installed
  - built for uneven urban terrain
  - records temperature, pressure and humidity of the air
 
-
-
+---
 
 # Architecture
 ## Software and digital tool and languages:
