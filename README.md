@@ -1,4 +1,4 @@
-## Wireless Environmental Monitoring Platform
+# Wireless Environmental Monitoring Platform
 
 <img width="4624" height="2604" alt="rn_image_picker_lib_temp_3451f50a-21aa-435d-9f39-d2db277a8afb" src="https://github.com/user-attachments/assets/5c99ced6-332a-4838-a1e1-a47c6f04edf2" />
 
@@ -8,14 +8,14 @@ This robot was made in collaboration with @Pita5488, who programed and installed
 
 
 
-## Key features
+# Key features
  - wireless control
  - modularity
  - built for uneven urban terrain
  - records temperature, pressure and humidity of the air
 
-## Architecture
-# Software and digital tool and languages:
+# Architecture
+## Software and digital tool and languages:
  - Arduino IDE
  - KiCad
  - C/C++
@@ -23,7 +23,7 @@ This robot was made in collaboration with @Pita5488, who programed and installed
  - VScode
  - Tinkercad
 
-# Hardware
+## Hardware
  - Arduino Rev 4 Wifi/BT
  - L298N engine driver
  - 18650 batteries
@@ -34,25 +34,25 @@ This robot was made in collaboration with @Pita5488, who programed and installed
  - yellow 3-6V DC Motors
  - other electronic
 
-# Consctruction
+## Consctruction
 - wooden main corpus
 - wooden electronics board
 - 3D-printed wheel guides
 
-## in depth look
+# in depth look
 # Robots pourpose
 Robot's main function is to record meterological data, while being remotely controled. 
 The wireless control system allows the user to reach terrains humans can't or should't because of possible danger, like vents, contruction zones, post accidents zones like labs, radioactive terrain, etc.
 
-# About software
+## About software
 We used the Arduino IDE, as it suited our need. We programmed the sensors, engines, etc., in many .h files to make the project clearer.
 
 We decided that the robot should be controlled via laptop, so we created a Python app, allowing us to do so.
 
-# About hardware
+## About hardware
 Our hardware was mostly mounted on the electronics board on the top of the robot.
 
-# About construction
+## About construction
 The whole idea of the robot was 1) to be large, so that it can be used in ubran enviroment, 2) to be modular, so that we can use it for many things.
 
 Robots size is aprox. 50 cm in lenght, 25 in width and 30 in height. We decided to use wood for large parts of the robot, since PETG would be less sturdy, and wouldn't allow us to easily use bolts to mount it.
@@ -75,14 +75,14 @@ Each engine guide (or "leg") can be individualy changed, allowing for diffrent c
 The detachable electronics board has also already come in handy - when I needed to code or tinker around it, i just detached it and didn't have to bring the whole robot with me.
 It also allows the robot to have multiple pourposes, since all it takes to completly change the electronics is to swap in the new boards, connect engines to the driver, and you are good to go.
 
-## What's still to fix?
+# What's still to fix?
 The main problem with the robot is it size and weight - it causes the rotation of the to be very slow and unreliable.
 
 During our testing we understood that because of robot's size, weight and teh fact that it's a skid-steer robot, it will not rotate well in this configuration.
 
 Which takes us to...
 
-## What's next?
+# What's next?
 --> The 2.0 version
 
 What I aim to acomplish now is to piece by piece change the robot, so that the movement problem will be fixed.
