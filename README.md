@@ -36,13 +36,13 @@ This robot was made in collaboration with @Pita5488, who programed and installed
  - yellow 3-6V DC Motors
  - other electronic
 
-## Consctruction
+## Construction
 - wooden main corpus
 - wooden electronics board
 - 3D-printed wheel guides
 
 # in depth look
-# Robots pourpose
+## Robots pourpose
 Robot's main function is to record meterological data, while being remotely controled. 
 The wireless control system allows the user to reach terrains humans can't or should't because of possible danger, like vents, contruction zones, post accidents zones like labs, radioactive terrain, etc.
 
