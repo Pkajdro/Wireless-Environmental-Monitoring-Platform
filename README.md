@@ -15,6 +15,8 @@ This robot was made in collaboration with @Pita5488, who programed and installed
  - records temperature, pressure and humidity of the air
 
 <br>
+<br>
+<br>
 
 # Architecture
 ## Software and digital tool and languages:
